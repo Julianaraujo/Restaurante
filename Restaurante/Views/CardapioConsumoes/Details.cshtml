@@ -1,0 +1,34 @@
+﻿@model Restaurante.Models.CardapioConsumo
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CardapioConsumo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Cardapio.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cardapio.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Consumo.ConsumoId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Consumo.ConsumoId)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

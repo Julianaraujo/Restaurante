@@ -154,8 +154,12 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CardapioConsumoesController.cs" />
+    <Compile Include="Controllers\CardapiosController.cs" />
     <Compile Include="Controllers\ClientesController.cs" />
+    <Compile Include="Controllers\ConsumoesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MesasController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -212,6 +216,26 @@
     <Content Include="Views\Clientes\Details.cshtml" />
     <Content Include="Views\Clientes\Edit.cshtml" />
     <Content Include="Views\Clientes\Index.cshtml" />
+    <Content Include="Views\Cardapios\Create.cshtml" />
+    <Content Include="Views\Cardapios\Delete.cshtml" />
+    <Content Include="Views\Cardapios\Details.cshtml" />
+    <Content Include="Views\Cardapios\Edit.cshtml" />
+    <Content Include="Views\Cardapios\Index.cshtml" />
+    <Content Include="Views\CardapioConsumoes\Create.cshtml" />
+    <Content Include="Views\CardapioConsumoes\Delete.cshtml" />
+    <Content Include="Views\CardapioConsumoes\Details.cshtml" />
+    <Content Include="Views\CardapioConsumoes\Edit.cshtml" />
+    <Content Include="Views\CardapioConsumoes\Index.cshtml" />
+    <Content Include="Views\Consumoes\Create.cshtml" />
+    <Content Include="Views\Consumoes\Delete.cshtml" />
+    <Content Include="Views\Consumoes\Details.cshtml" />
+    <Content Include="Views\Consumoes\Edit.cshtml" />
+    <Content Include="Views\Consumoes\Index.cshtml" />
+    <Content Include="Views\Mesas\Create.cshtml" />
+    <Content Include="Views\Mesas\Delete.cshtml" />
+    <Content Include="Views\Mesas\Details.cshtml" />
+    <Content Include="Views\Mesas\Edit.cshtml" />
+    <Content Include="Views\Mesas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
